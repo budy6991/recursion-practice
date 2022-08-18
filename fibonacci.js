@@ -17,3 +17,4 @@ function fibs (num) {
 function fibsRec (num) {
     return ( num < 3 ? 1 : fibsRec(num - 2) + fibsRec(num - 1))
 }
+
